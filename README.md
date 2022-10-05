@@ -15,5 +15,5 @@ Get TokenId by Name.
 Get NameHash (bytes32 hash) for a name.  
 
 ### LNRFront: React frontend for wrapping/minting erc721a versions of ".og" names
-metadata for new mints is hosted on an EC2 currently if anyone wants to takeover. 
+metadata for new mints is hosted on an EC2 currently.
 metadata python script in metadata/

@@ -20,10 +20,13 @@ metadata for new mints is hosted on an EC2 currently.
 metadata python script in metadata/
 
 
-### The bad on LNR
+### The BAD on LNR  
 No front running protection makes LNR vulnerable to hostage styled front running.  
 
 Bytes32 type used in the Contract for _name means names cant be > 32bytes (no long emoji names).  
 
 There is no extension associated with the project (such as .og). This is a major fault for a naming system.
-This allows users to register existing TLD / extensions for impersonation, spams, squatting.
+This allows users to register existing TLD / extensions for impersonation, spams, squatting.  
+
+It's shit in terms of a name service. Dont try to add utility where there is none. 
+

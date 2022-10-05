@@ -15,7 +15,7 @@ import argparse
 
 class OGRunner:
     def __init__(self, args):
-        self.provider = "https://side-blue-leaf.quiknode.pro/5afa975ca6a7fd7433fa88e291ca41075608c5c6/"
+        self.provider = os.getenv("PROVIDER")
         self.w3 = Web3(HTTPProvider(self.provider))
 
         self.pkey = os.getenv("PKEY")

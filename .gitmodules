@@ -1,0 +1,3 @@
+[submodule "LNSFront"]
+	path = LNSFront
+	url = https://github.com/lcfr-eth/LNSFront.git

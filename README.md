@@ -23,7 +23,7 @@ metadata python script in metadata/
 ### The BAD on LNR  
 No front running protection makes LNR vulnerable to hostage styled front running.  
 
-Bytes32 type used in the Contract for _name means names cant be > 32bytes (no long emoji names).  
+Bytes32 type used in the Contract for _name means names cant be > 32 (no long emoji names).  
 
 There is no extension associated with the project (such as .og). This is a major fault for a naming system.
 This allows users to register existing TLD / extensions for impersonation, spams, squatting.  

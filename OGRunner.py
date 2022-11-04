@@ -101,7 +101,7 @@ class OGRunner:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="FRFR - lcfr.eth\n")
     parser.add_argument("--target", dest="target", type=str,
-                        help="enable flashbots relay.",
+                        help="target specific name.",
                         default=None)
     args = parser.parse_args()
     main = OGRunner(args)
